@@ -13,8 +13,6 @@ import shutil
 from time import strftime, gmtime
 from bs4 import BeautifulSoup
 
-#validtypes = ['text/vnd.tiddlywiki', 'text/plain']
-
 
 def tid2dict(tiddler):
     """
