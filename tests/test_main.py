@@ -18,7 +18,7 @@ def test_reading1(tiddlywikidotcom):
     t=loadtiddlers(tiddlywikidotcom, ['HelloThere'])
     print(t[0]['title'])
     assert t[0]['title'] == 'HelloThere'
-    pass
+
 
 
     
