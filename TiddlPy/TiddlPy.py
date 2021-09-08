@@ -1,9 +1,11 @@
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
 Created on Sat Jan 31 15:05:36 2015
 TiddlPy
 
-@author: Neil Griffin
+@author: OpenCo
+@original author: Neil Griffin
 """
 
 import re
