@@ -10,7 +10,7 @@ from TiddlPy import loadtiddlers, searchtiddlers, findtiddlers, wikiedit
 @pytest.fixture(scope='session')
 def tiddlywikidotcom():
     filename = 'tempfile.html'
-    r = requests.get('http://tiddlywiki.com')
+    r = requests.get('https://tiddlywiki.com')
     file = open(filename, 'wb')
     file.write(r.content)
     yield(filename)
